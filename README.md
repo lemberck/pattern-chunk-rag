@@ -160,8 +160,8 @@ LIGHTRAG_WORKING_DIR=./lightrag_storage
 
 ```bash
 # Clone repository
-git clone <your-repo-url>
-cd pareto
+git clone https://github.com/lemberck/pattern-chunk-rag.git
+cd pattern-chunk-rag
 
 # Install dependencies with UV
 uv sync
