@@ -1,0 +1,9 @@
+Funnel analysis reveals step 2 verification as the primary conversion blocker.
+Phone verification friction accounts for most user abandonment in early onboarding stages.
+Verification step timing correlates strongly with overall activation success rates.
+Users who complete verification after seeing product value show higher long-term retention.
+SMS delivery problems in step 2 create negative first impressions of product reliability.
+Verification delays cause users to question product quality before experiencing benefits.
+Moving phone verification later in the flow reduces abandonment by approximately 30%.
+Step 2 verification interrupts the natural product discovery flow for new users.
+Deferred verification strategies outperform immediate verification in most user segments.

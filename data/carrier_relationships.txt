@@ -1,0 +1,9 @@
+Carrier SMS delivery delays directly impact step 2 verification completion rates during onboarding.
+Direct carrier relationships improve verification code delivery speed compared to aggregator services.
+Telecom partnerships reduce verification abandonment by ensuring reliable SMS delivery infrastructure.
+Carrier-specific routing optimizes verification code delivery based on regional network performance.
+Poor carrier performance creates verification delays that lead to user frustration and abandonment.
+Carrier SLA negotiations should prioritize verification delivery speed over cost optimization alone.
+Regional carrier diversity prevents verification outages when individual carriers experience issues.
+Carrier API reliability affects real-time verification flow and user experience quality.
+Direct carrier relationships enable faster troubleshooting when verification delivery fails.

@@ -1,0 +1,9 @@
+Security compliance requires balancing verification timing with regulatory requirements during onboarding.
+Immediate step 2 verification meets security standards but creates significant user abandonment.
+Compliance frameworks allow for deferred verification if proper risk assessment is maintained.
+Multi-factor verification timing affects both security posture and user activation success.
+Regulatory requirements create tension between security needs and conversion optimization goals.
+Security teams recognize that abandoned users provide no security benefit versus deferred verification.
+Compliance audits evaluate whether verification timing balances security and user experience effectively.
+Verification delay windows must comply with regulatory timeframes while optimizing user flow.
+Risk-based verification timing allows security compliance without sacrificing activation rates.

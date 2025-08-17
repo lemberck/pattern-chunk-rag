@@ -1,0 +1,170 @@
+{
+  "data/ab_testing_verification.txt": {
+    "path": "data/ab_testing_verification.txt",
+    "size": 887,
+    "mtime": 1755434829.8751655,
+    "hash": "47333867698fe0d18b24e27a8bde8b7514402819",
+    "last_processed": "2025-08-17T17:44:18.644731"
+  },
+  "data/conversion_funnel_analysis.txt": {
+    "path": "data/conversion_funnel_analysis.txt",
+    "size": 782,
+    "mtime": 1755381673.5160868,
+    "hash": "51ebdcbec5416ac5f8e957afa5fa658122fb7e67",
+    "last_processed": "2025-08-17T17:44:18.644806"
+  },
+  "data/team_building_activities.txt": {
+    "path": "data/team_building_activities.txt",
+    "size": 932,
+    "mtime": 1755433892.596342,
+    "hash": "4840cbdb03305e40c46b3e6c45bb5a1171d79233",
+    "last_processed": "2025-08-17T17:44:18.644849"
+  },
+  "data/office_plants_guide.txt": {
+    "path": "data/office_plants_guide.txt",
+    "size": 911,
+    "mtime": 1755433900.6154118,
+    "hash": "746dc43d7e5b8f956f0ac3ea5f8395d00dd9827a",
+    "last_processed": "2025-08-17T17:44:18.644888"
+  },
+  "data/sms_provider_analysis.txt": {
+    "path": "data/sms_provider_analysis.txt",
+    "size": 779,
+    "mtime": 1755434792.5012667,
+    "hash": "8b403461078493e79fb780d3a531b1fd67e650fe",
+    "last_processed": "2025-08-17T17:44:18.644924"
+  },
+  "data/release_notes_ui.txt": {
+    "path": "data/release_notes_ui.txt",
+    "size": 906,
+    "mtime": 1755370390.0,
+    "hash": "8c74ad7b9f7af5e9b64dfee130dabe6f7aa90063",
+    "last_processed": "2025-08-17T17:44:18.644959"
+  },
+  "data/security_compliance_verification.txt": {
+    "path": "data/security_compliance_verification.txt",
+    "size": 887,
+    "mtime": 1755434841.7428267,
+    "hash": "29f50ed91b51257c0b44ab09e2ab3ffa19bbc439",
+    "last_processed": "2025-08-17T17:44:18.644994"
+  },
+  "data/international_verification.txt": {
+    "path": "data/international_verification.txt",
+    "size": 861,
+    "mtime": 1755434817.2875304,
+    "hash": "2e688a3f76eb5842a1dec20c696e6375e7a12d89",
+    "last_processed": "2025-08-17T17:44:18.645029"
+  },
+  "data/verification_analytics.txt": {
+    "path": "data/verification_analytics.txt",
+    "size": 858,
+    "mtime": 1755434865.7781556,
+    "hash": "3b16e7ad29f4f66503958bdef1fababd3f9215a6",
+    "last_processed": "2025-08-17T17:44:18.645063"
+  },
+  "data/verification_optimization.txt": {
+    "path": "data/verification_optimization.txt",
+    "size": 795,
+    "mtime": 1755381664.904515,
+    "hash": "b9d0bbc80feedd5f93bbc54af33147eea514a9c7",
+    "last_processed": "2025-08-17T17:44:18.645102"
+  },
+  "data/analytics_pricing.txt": {
+    "path": "data/analytics_pricing.txt",
+    "size": 839,
+    "mtime": 1755370390.0,
+    "hash": "3175498220cfceb6e8a17af0966a01394c37366b",
+    "last_processed": "2025-08-17T17:44:18.645135"
+  },
+  "data/eng_rate_limits.txt": {
+    "path": "data/eng_rate_limits.txt",
+    "size": 980,
+    "mtime": 1755370390.0,
+    "hash": "ce9da7077a609de9250e2b7faa183018f950302a",
+    "last_processed": "2025-08-17T17:44:18.645169"
+  },
+  "data/carrier_relationships.txt": {
+    "path": "data/carrier_relationships.txt",
+    "size": 890,
+    "mtime": 1755434853.1075068,
+    "hash": "502ec6838de01e3b22889bdd823572a14745c13e",
+    "last_processed": "2025-08-17T17:44:18.645211"
+  },
+  "data/mobile_verification_study.txt": {
+    "path": "data/mobile_verification_study.txt",
+    "size": 791,
+    "mtime": 1755381688.4798646,
+    "hash": "3d445fda0938150ec54a12a361a0fe39cdbb3d8c",
+    "last_processed": "2025-08-17T17:44:18.645246"
+  },
+  "data/customer_feedback.txt": {
+    "path": "data/customer_feedback.txt",
+    "size": 922,
+    "mtime": 1755370390.0,
+    "hash": "63b91a981ee7955af46dc1d4b59760bc5af9704b",
+    "last_processed": "2025-08-17T17:44:18.645281"
+  },
+  "data/accessibility_verification.txt": {
+    "path": "data/accessibility_verification.txt",
+    "size": 853,
+    "mtime": 1755434880.0507665,
+    "hash": "cda5274a2eeafea902df63207154465879d829e3",
+    "last_processed": "2025-08-17T17:44:18.645322"
+  },
+  "data/user_onboarding_research.txt": {
+    "path": "data/user_onboarding_research.txt",
+    "size": 846,
+    "mtime": 1755381655.2532575,
+    "hash": "8987ecfb024b303292b9bd236222fcc6423242e4",
+    "last_processed": "2025-08-17T17:44:18.645362"
+  },
+  "data/product_verification.txt": {
+    "path": "data/product_verification.txt",
+    "size": 941,
+    "mtime": 1755370390.0,
+    "hash": "8305e1fab43d44ca5425ddb73157d506641b91fc",
+    "last_processed": "2025-08-17T17:44:18.645393"
+  },
+  "data/marketing_activation.txt": {
+    "path": "data/marketing_activation.txt",
+    "size": 985,
+    "mtime": 1755370390.0,
+    "hash": "9764a868fa67504903832c7ef9d033c2d9b422ef",
+    "last_processed": "2025-08-17T17:44:18.645425"
+  },
+  "data/coffee_roasting_basics.txt": {
+    "path": "data/coffee_roasting_basics.txt",
+    "size": 890,
+    "mtime": 1755428909.7145681,
+    "hash": "67fc40b080fee1e83c280384cb1e4a308f43160a",
+    "last_processed": "2025-08-17T17:44:18.645460"
+  },
+  "data/support_tickets_activation.txt": {
+    "path": "data/support_tickets_activation.txt",
+    "size": 941,
+    "mtime": 1755370390.0,
+    "hash": "2fd4132a6ae5257db83156708e771999de529f32",
+    "last_processed": "2025-08-17T17:44:18.645492"
+  },
+  "data/verification_ux_improvements.txt": {
+    "path": "data/verification_ux_improvements.txt",
+    "size": 850,
+    "mtime": 1755434805.288884,
+    "hash": "102d62be23e1792fe7807df70145d15512ffe1d3",
+    "last_processed": "2025-08-17T17:44:18.645523"
+  },
+  "data/ops_billing_postmortem.txt": {
+    "path": "data/ops_billing_postmortem.txt",
+    "size": 868,
+    "mtime": 1755370390.0,
+    "hash": "9b687a0680d4665b0bcca113f0636ceec201fbf6",
+    "last_processed": "2025-08-17T17:44:18.645557"
+  },
+  "data/hummingbird_field_notes.txt": {
+    "path": "data/hummingbird_field_notes.txt",
+    "size": 871,
+    "mtime": 1755370390.0,
+    "hash": "7e68a6beda2ca63e3d016f35c4f543d65f2c7e21",
+    "last_processed": "2025-08-17T17:44:18.645592"
+  }
+}

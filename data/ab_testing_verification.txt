@@ -1,0 +1,9 @@
+A/B testing shows verification placement during onboarding significantly impacts conversion rates.
+Immediate verification in step 2 produces 25% higher abandonment than deferred verification.
+Test results demonstrate clear statistical significance across 10,000 users with high confidence.
+Optimal verification timing occurs after users experience initial product value and engagement.
+Early verification consistently creates friction despite attempts to improve the verification UI.
+Regional testing confirms verification timing preferences vary significantly across geographic markets.
+Multivariate experiments show verification timing, method, and messaging all affect completion rates.
+User cohort analysis reveals that deferred verification improves long-term retention and activation.
+Verification timing experiments provide strong evidence for postponing phone verification steps.

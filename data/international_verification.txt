@@ -1,0 +1,9 @@
+International phone verification in step 2 shows dramatically different success rates across regions.
+Carrier reliability varies by country, creating inconsistent verification completion experiences globally.
+Cross-border SMS delivery delays cause users to abandon verification before codes arrive.
+Regional differences in verification timing expectations affect activation success rates significantly.
+International users experience higher verification abandonment due to SMS delivery failures.
+Localized verification messages improve completion rates but don't address timing issues.
+Global verification requires region-specific fallback methods to maintain activation rates.
+Phone number validation complexity increases verification friction in international markets.
+Time zone differences compound verification delivery delays and user frustration globally.

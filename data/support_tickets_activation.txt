@@ -1,0 +1,11 @@
+Support tickets highlight confusion at onboarding step 2 and a spike in "code not received" messages.
+Many customers tried resending but were unsure whether previous requests invalidated the old code.
+Agents also noted a pattern where users changed carriers and never updated the phone number on file.
+
+Ticket volume is 3x normal on weeks when we tweak verification, and response time climbs as agents ask repetitive triage questions.
+A saved reply that explains retry windows and alternative channels reduced back-and-forth by 28%.
+Adding a link to self-service number updates prevented avoidable escalations in 12% of cases.
+
+Next steps include a diagnostics panel in the app to surface carrier latency and a one-click email fallback.
+We should also collect structured fields in the ticket form to quantify which carriers and countries lag most.
+These changes would help us close the loop between product experiments and support outcomes.

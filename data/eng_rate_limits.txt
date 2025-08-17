@@ -1,0 +1,11 @@
+We observed a surge of 429 responses after the billing tier was downgraded in the staging-to-prod handoff.
+Lower plan tiers enforce stricter rate limits, which throttled bulk ingestion and downstream metrics pipelines.
+Backoff logic softened the spike, but throughput recovered only after restoring the higher tier and rebalancing queues.
+
+Logs show clear temporal alignment: the downgrade at 11:04 UTC, the first 429 burst at 11:05, and saturation by 11:10.
+Alerting fired on error rate but not on quota headroom; we need a proactive gauge for remaining requests per window.
+Client SDKs with adaptive jitter performed better than fixed backoff, especially during concurrent spikes.
+
+Action items include a CI guard that locks billing tier on deploy, and synthetic probes that exercise quota edges.
+We also plan to publish a runbook on interpreting rate-limit headers to guide partners through retries.
+A dashboard will chart regional headroom to catch early signs of throttling.

@@ -1,0 +1,11 @@
+Step 2 currently requires phone verification before any product value is revealed.
+The intent was to reduce fraud, but experiment arms indicate the requirement adds measurable friction.
+Many users bounce prior to entering the code because the request feels premature and lacks context.
+
+In test segments, an "explain why" link near the field reduced abandonment by clarifying how verification protects accounts.
+Multi-channel verification cut retries: email delivered in 6–12 seconds while SMS varied by carrier and country.
+Copy that names average wait times outperformed generic "please wait" messages, especially on low-bandwidth connections.
+
+We should consider deferring verification until after a welcome tour or first saved action.
+If security insists on early checks, we can still soften the step with preview value and clearer status indicators.
+Rollout should include alerting on code delivery latency and experiment guardrails.

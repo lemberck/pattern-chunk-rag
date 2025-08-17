@@ -1,0 +1,11 @@
+Pricing experiments around $19 vs $24 moved conversion less than onboarding friction did.
+Regionally, price sensitivity exists, but the largest swings map to verification timing in step 2.
+LTV projections remained stable even when the cheaper tier won the short-term test in two countries.
+
+When we segment by network type, mobile data users are most impacted by SMS latency.
+Email as a fallback neutralizes the gap, suggesting channel reliability outweighs nominal price differences.
+The model attributes 70% of recent variance to verification changes rather than pricing.
+
+Given the above, we recommend pausing new price tests until verification reliability stabilizes.
+Our next analysis will focus on carrier-level latency curves and their impact on activation cohorts.
+We'll revisit pricing once the funnel baseline stops oscillating.

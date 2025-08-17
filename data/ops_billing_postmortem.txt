@@ -1,0 +1,10 @@
+Incident 2025-07-14: unexpected throttling across regions during a seasonal campaign.
+Root cause: a billing misconfiguration set the account to a lower plan, reducing rate limits without a corresponding alert.
+Impact: ingestion delays, dashboard staleness, and partner timeouts for roughly 47 minutes.
+
+Contributing factors included a missing deploy check for billing tier, and dashboards that hid rate-limit headroom behind another tab.
+Mitigations: CI policy now blocks tier changes without an approval token, and observability shows headroom prominently.
+We also tuned client retry logic to respect headers and avoid lockstep retries that amplify contention.
+
+Follow-ups: simulate quota shocks weekly, validate partner behavior under tight budgets, and explore autoscaling proxies.
+We expect these to cut mean time to recovery by at least 30% in similar incidents.

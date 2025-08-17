@@ -1,0 +1,9 @@
+Phone number verification in the second onboarding step creates unnecessary friction for users.
+Verification delays lead to significant user drop-off before product value demonstration.
+Moving verification to later in the flow after users see core functionality improves metrics.
+SMS code delivery issues are concentrated in step 2 of the user acquisition funnel.
+Verification timing impacts user trust and willingness to complete the signup process.
+Early verification requests conflict with the principle of progressive disclosure.
+Users abandon verification when they haven't yet experienced the product's core value.
+Deferring verification until after the "aha moment" increases overall conversion rates.
+Step 2 verification problems account for 40% of all support tickets during onboarding.

@@ -1,0 +1,11 @@
+After the latest onboarding redesign, activation fell from 42% to 31% in the first seven days.
+Most complaints point to step 2, where phone verification blocks progress and the UI shows little feedback.
+Early funnel charts suggest the drop started exactly when we moved verification earlier in the flow.
+
+Users report SMS codes arriving late or not at all, and some codes time out while they are still reading instructions.
+Customer interviews describe a sense of "dead end" when the spinner persists without an ETA or a retry hint.
+Analytics shows a sharp drop-off at verification, not at pricing tests, reinforcing that friction is concentrated in step 2.
+
+To mitigate, we should pre-validate numbers, add a visible countdown to code expiry, and allow an alternative channel like email or WhatsApp.
+We might also defer verification until the first "aha" moment so perceived value precedes the hurdle.
+If we implement these, we expect conversion to rebound within two release cycles.

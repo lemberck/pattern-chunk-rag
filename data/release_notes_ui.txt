@@ -1,0 +1,11 @@
+Release 2.8 updates step 2 copy, adds a live "code received" indicator, and clarifies when to request a new code.
+The field label now explains why verification protects the account, and the help icon links to a short explainer.
+We also animated the resend button to show a cool-down period instead of silently disabling it.
+
+Accessibility reviewed the changes: labels meet contrast ratios and focus order is predictable.
+Screen readers announce the code countdown, the success state, and errors with specific recovery suggestions.
+We included telemetry for code arrival times and resend usage to compare carriers by region.
+
+Minor fixes shipped alongside: tooltip alignment, padding on small screens, and consistent status colors.
+If metrics confirm lower abandonment, we will roll the pattern into desktop and tablet flows.
+Rollback is staged if we detect regressions in activation in the first 24 hours.

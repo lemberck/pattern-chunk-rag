@@ -1,0 +1,9 @@
+Mobile users experience higher verification failure rates in step 2 compared to desktop users.
+Phone verification on mobile networks shows increased latency and delivery issues.
+Step 2 verification creates particular challenges for users on cellular data connections.
+Verification code delivery varies significantly across different mobile carriers and regions.
+Mobile verification problems contribute to overall activation rate decline in recent months.
+Users on mobile devices abandon verification more frequently when codes are delayed.
+Deferring verification reduces mobile-specific abandonment issues significantly.
+Step 2 verification timing affects mobile user experience more than desktop experience.
+Mobile verification optimization could improve overall conversion rates by 15-20%.

@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# LightRAG storage
+lightrag_storage
+
+# Output files
+output
+
+# env file
+.env

@@ -1,0 +1,11 @@
+Several customers cited verification delays during sign-up; two minutes felt "like forever" on mobile data.
+Some admitted abandoning because the screen offered no hint about alternatives or typical wait times.
+A minority disliked sharing a phone number at all and wanted to defer verification until they trusted the product more.
+
+Others praised email verification as more reliable in their region, while a few asked for WhatsApp for convenience.
+One customer suggested surfacing a code input even before the SMS arrives, so they can type as they receive it.
+Another asked for a visible clock to know whether to request a new code or keep waiting.
+
+Themes recurred across interviews: friction at step 2, low feedback, and missing fallback paths.
+Addressing these concerns could reduce abandonment without sacrificing security.
+We should test a design that pairs immediate value with a gentle, well-explained verification.

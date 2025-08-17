@@ -1,0 +1,9 @@
+Research indicates that phone verification in step 2 is the primary friction point for new users.
+Verification timing sensitivity affects conversion rates more than pricing experiments in most regions.
+Users report feeling frustrated when verification codes are delayed or never arrive.
+The current verification flow lacks clear communication about wait times and alternatives.
+Deferring phone verification until after initial product engagement improves retention metrics.
+Step 2 verification creates a trust barrier before users understand product value proposition.
+SMS verification reliability varies significantly across different geographic regions.
+Users prefer seeing immediate value before being asked to verify personal information.
+Postponing verification allows users to experience product benefits first, increasing completion rates.

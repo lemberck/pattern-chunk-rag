@@ -1,0 +1,9 @@
+Step 2 verification UI creates friction with unclear progress indicators and timeout warnings.
+Loading spinners during verification provide no context about expected wait times or next steps.
+Verification code input fields lack visual feedback to guide users through the process.
+Error handling in verification flow provides generic messages instead of actionable guidance.
+Progressive disclosure of verification requirements could reduce perceived friction in onboarding.
+Auto-focus and auto-submit functionality improves verification completion rates on mobile devices.
+Clear communication about verification purpose increases user trust and reduces abandonment.
+Contextual help during verification prevents users from getting stuck and abandoning the flow.
+Real-time validation prevents multiple failed attempts that lead to verification lockouts.
