@@ -15,5 +15,8 @@ lightrag_storage
 # Output files
 output
 
+# Pipeline cache
+.pipeline_cache/
+
 # env file
 .env
