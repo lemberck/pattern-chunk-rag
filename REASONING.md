@@ -68,18 +68,25 @@ This project implements a 7-step RAG chunking pipeline designed to identify and 
 **Alternative Considered**: Single agent handling both extraction and canonicalization
 **Why Rejected**: Would lead to inconsistent outputs and mixing of concerns
 
-### 4. Embedding-Based Similarity Grouping
+### 4. Embedding-Based Similarity Grouping (Scale-Appropriate Design)
 
-**Decision**: Use OpenAI's text-embedding-3-small for grouping similar topic labels.
+**Decision**: Use OpenAI's text-embedding-3-small with in-memory cosine similarity for grouping similar topic labels.
 
 **Justification**:
-- Semantic similarity captures related concepts better than string matching
-- OpenAI embeddings are reliable and well-tested
-- Cosine similarity threshold (0.6) allows semantically related topics to group while maintaining distinction
-- Cost-effective compared to larger embedding models
+- **Cost-Effective Development**: Total development cost <$0.50 (generator + embedding model runs) - proves concept before infrastructure investment
+- **Scale-Appropriate**: Current approach handles the test documents efficiently (<50MB memory, <30 seconds processing)
+- **Semantic Precision**: Embeddings capture related concepts better than string matching
+- **No Infrastructure Complexity**: Avoids vector database setup, hosting, and integration costs during development
+- **Incremental Design**: Existing persistence strategy (load/save JSON) enables easy migration to vector DB when needed
+- **OpenAI Integration**: Reliable embeddings with established API, no additional vendor relationships
 
-**Alternative Considered**: String-based fuzzy matching
-**Why Rejected**: Would miss semantic relationships between different phrasings
+**Development Economics**:
+- **Current Scale**: 24 documents → 207 labels → 22 groups = ~50MB RAM usage
+- **Break-Even Point**: Vector DB becomes cost-effective at a larger scale of documents or >5 minute processing time
+- **Migration Path**: Simple interface allows seamless upgrade to ChromaDB/Pinecone/pgvector etc. when scale demands
+
+**Alternative Considered**: Vector database (ChromaDB, Pinecone, FAISS, etc)
+**Why Rejected**: Over-engineering for current scale - adds complexity and another integration without performance benefits at the current testing document processing scale.
 
 ### 4. Deterministic Output with Temperature=0
 
@@ -452,14 +459,26 @@ python main.py --verbose
 
 ## Future Enhancement Opportunities
 
-1. **Parallel Processing**: Add multi-threading for independent operations
-2. **LLM-as-a-Judge Quality Assurance**: Implement evaluation pipeline using LLM to assess retrieval quality:
+1. **Vector Database Migration for Higher Scale**: Implement vector database backend for similarity search when processing a larger batch of documents:
+   - **VecDB Integration**: Replace in-memory similarity search with persistent vector storage
+   - **Embedding Persistence**: Store embeddings in vector DB to avoid recomputation on incremental updates
+   - **Streaming Processing**: Process labels in batches to handle memory constraints at scale
+   - **Approximate Search**: Use FAISS/Annoy for ultra-fast similarity queries on large datasets
+   - **Distributed Processing**: Enable multi-node processing for massive document collections
+   - **Migration Trigger**: Implement automatic detection when current approach exceeds performance thresholds
+
+2. **Parallel Processing**: Add multi-threading for independent operations
+
+3. **LLM-as-a-Judge Quality Assurance**: Implement evaluation pipeline using LLM to assess retrieval quality:
    - **Hallucination Detection**: Validate that retrieved content supports generated answers without introducing false information
    - **Relevance Scoring**: Score how well retrieved chunks match the user's query intent and information needs
    - **Pattern Quality Assessment**: Evaluate canonical pattern coherence and semantic consistency across support documents
-3. **Pattern Evolution**: Track how canonical patterns change over time
-4. **Add LLM Monitoring System**: Use tools like langfuse/langsmith for LLM monitoring
-5. **Interactive Tuning**: Web interface for adjusting parameters and reviewing results
+
+4. **Pattern Evolution**: Track how canonical patterns change over time
+
+5. **Add LLM Monitoring System**: Use tools like langfuse/langsmith for LLM monitoring
+
+6. **Interactive Tuning**: Web interface for adjusting parameters and reviewing results
 
 ## Lessons Learned
 
